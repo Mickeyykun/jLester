@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+      <h1>Your Name</h1>
+      <p>A passionate web developer with a knack for creating modern and responsive websites.</p>
+      <img src="https://i.pravatar.cc/140" alt="Your Name" />
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a motivated web developer with a background in computer science and experience building modern, user-friendly web applications. Skilled in HTML, CSS, JavaScript, and React, I enjoy solving complex problems and learning new technologies. Outside coding, I like photography and hiking.</p>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <article>
+        <h3>Personal Blog</h3>
+        <p>A responsive blog website built with HTML, CSS, and JavaScript featuring a clean interface for sharing articles.</p>
+        <img src="https://via.placeholder.com/600x300?text=Blog+Screenshot" alt="Personal Blog Screenshot" />
+      </article>
+      <article>
+        <h3>Weather App</h3>
+        <p>A weather forecast app consuming the OpenWeather API. Built with React for real-time weather updates.</p>
+        <img src="https://via.placeholder.com/600x300?text=Weather+App+Screenshot" alt="Weather App Screenshot" />
+      </article>
+      <article>
+        <h3>Task Manager</h3>
+        <p>A simple task management app using localStorage to save tasks with options to add, delete, and mark complete.</p>
+        <img src="https://via.placeholder.com/600x300?text=Task+Manager+Screenshot" alt="Task Manager Screenshot" />
+      </article>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contactForm" novalidate>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required aria-required="true" />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required aria-required="true" />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+        <button type="submit">Send</button>
+        <p id="formMessage" role="alert" aria-live="assertive" style="color: red; margin-top: 0.5rem; display:none;"></p>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Connect with me on 
+      <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a> | 
+      <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
