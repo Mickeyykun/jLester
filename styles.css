@@ -152,7 +152,6 @@ footer a:hover {
   color: #000dff;
 }
 
-/* Responsive */
 @media (max-width: 600px) {
   nav ul {
     flex-direction: column;
